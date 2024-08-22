@@ -20,7 +20,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "Enter your session-id",
+SESSION_ID: process.env.SESSION_ID || "PRABATH-MD~BRZmnaDB#wRef-_xw5bGKl1eAZQQILGD5N5MPNF-8GnUpn5fdwHk",
 BOT_NUMBER: process.env.BOT_NUMBER || "Enter your botnumber (without + mark and spaces)",
 PASSWORD: process.env.PASSWORD || "Enter you like password",
 GITHUB_USERNAME: process.env.GITHUB_USERNAME || "Enter your github username",
